@@ -1,0 +1,15 @@
+{
+	"name": "textbreak",
+	"description": "WebAssembly binding for icu_segmenter",
+	"keywords": ["icu", "icu-segmenter", "textbreak", "linebreak"],
+	"repository": "seanghay/textbreak",
+	"author": { "email": "seanghay.dev@gmail.com", "name": "Seanghay Yath" },
+	"type": "module",
+	"version": "0.0.1",
+	"files": ["dist"],
+	"main": "dist/textbreak.js",
+	"types": "dist/textbreak.d.ts",
+	"scripts": {
+		"build": "wasm-pack build --target web --release --out-dir dist --no-pack"
+	}
+}
