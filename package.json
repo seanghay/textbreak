@@ -5,7 +5,7 @@
 	"repository": "seanghay/textbreak",
 	"author": { "email": "seanghay.dev@gmail.com", "name": "Seanghay Yath" },
 	"type": "module",
-	"version": "0.0.1",
+	"version": "0.0.0",
 	"files": ["dist"],
 	"main": "dist/textbreak.js",
 	"types": "dist/textbreak.d.ts",
